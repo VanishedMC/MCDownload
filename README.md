@@ -16,3 +16,6 @@ Works from 1.8 - 1.12
 
 /findpl <name>  
   - W.I.P  
+
+# permissions
+none. 
