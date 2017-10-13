@@ -18,4 +18,5 @@ Works from 1.8 - 1.12
   - W.I.P  
 
 # permissions
-none. 
+mcdownload.download
+  - gives permissions for /download and /findpl
