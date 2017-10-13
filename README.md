@@ -1,8 +1,12 @@
 # MCDownload
-# Small project I made for myself, feel free to use for whatever.
-# API used: https://github.com/Maximvdw/SpigotSite-API and https://github.com/Maximvdw/SpigotSite
-# Works from 1.8 - 1.12
-# Commands:
+Small project I made for myself, feel free to use for whatever.
+# API's used
+https://github.com/Maximvdw/SpigotSite-API
+https://github.com/Maximvdw/SpigotSite 
+
+# Usage
+Works from 1.8 - 1.12
+
 # /download <id> <true/false> [filename]
   - Id = id for the plugin to download from spigotmc.org
   - true/false = should the plugin be enabled without additional restart (not recommended in most cases)
