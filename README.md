@@ -12,6 +12,7 @@ Works from 1.8 - 1.12
 /download <id> <true/false> [filename]  
   - Id = id for the plugin to download from spigotmc.org  
   - true/false = should the plugin be enabled without additional restart (not recommended in most cases)  
-  - filename = what should the file in the /root/plugins folder be called (no need to add extension)   
+  - filename = what should the file in the /root/plugins folder be called (no need to add extension)  
+
 /findpl <name>  
   - W.I.P  
