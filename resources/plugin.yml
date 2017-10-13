@@ -1,0 +1,11 @@
+main: com.webmets.pluginselector.PluginSelector
+version: 1.0
+author: webmets
+name: MCDownloader
+commands:
+    download:
+        usage: /<command> <id> <enable> [filename]
+        description: Download any plugin from spigotmc.org, and save it to the given filename!
+    findpl:
+        usage: /<command> <name>
+        description: Look for plugins with the given name
