@@ -33,6 +33,10 @@ public class PluginSelector extends JavaPlugin {
 				sender.sendMessage(RED + "I am still downloading a plugin, please wait!");
 				return true;
 			}
+			if(!sender.hasPermission("mcdownload.download")) {
+				sender.sendMessage(RED+"You do not have permissions for that command");
+				return true;
+			}
 			if (args.length <= 0) {
 				sender.sendMessage(RED + "Usage: /download <plugin id> <should enable> [name]\n" + RED
 						+ "- Downloads the plugin with given id from spigotmc and enables if specified. Saves to the given filename (id.jar if no name specified)");
@@ -83,6 +87,11 @@ public class PluginSelector extends JavaPlugin {
 				sender.sendMessage(RED + "I am still downloading a plugin, please wait!");
 				return true;
 			}
+			if(!sender.hasPermission("mcdownload.download")) {
+				sender.sendMessage(RED+"You do not have permissions for that command");
+				return true;
+			}
+			sender.sendMessage(RED+"W.I.P");
 			return true;
 		}
 

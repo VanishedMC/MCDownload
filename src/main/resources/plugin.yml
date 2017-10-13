@@ -9,3 +9,7 @@ commands:
     findpl:
         usage: /<command> <name>
         description: Look for plugins with the given name
+permissions:
+    mcdownload.download:
+        default: op
+        description: gives acces to /download
